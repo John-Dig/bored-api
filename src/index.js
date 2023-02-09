@@ -5,9 +5,9 @@ import Bored from './js/bored';
 
 
 //business logic
-let thingToDo = new Bored;
 
 async function handleOutput() {
+  let thingToDo = new Bored;
   const rawOutput = await thingToDo.getActivity();
   const theActivity = rawOutput["activity"];
   
